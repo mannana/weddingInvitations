@@ -1,0 +1,607 @@
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+.swiper-slide{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.swiper-pagination{
+    color: #fff;
+    text-align: right;
+    width: 95%;
+}
+.img{
+    position: absolute;
+}
+.music-box{
+    width: 10%;
+    z-index: 100;
+    top:3%;
+    right: 8%;
+}
+.music{
+    width: 100%;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+.page1{
+    background: url(../img/bg.jpg);
+
+}
+
+.photo-box{
+width: 100%;
+height: 75%;
+top: 25%;
+overflow: hidden;
+}
+.photo1{
+    width:100%;
+    top: 0;
+}
+
+.edging{
+    width: 110%;
+    height:94%;
+    top:6%;
+    left: -5%;
+}
+.title-img{
+    width: 60%;
+    top: 10%;
+    left: 20%;
+}
+.title-text-img{
+    width: 50%;
+    top: 18%;
+    left: 25%;
+}
+.newlyweds{
+    width: 50%;
+    top: 26%;
+    left: 25%;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}
+.date{
+    width: 60%;
+    top: 31%;
+    left: 21%;
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+}
+.bottom-en-text{
+    bottom: 5%;
+    left: 12%;
+}
+.pre-wrap{
+    width: 10%;
+    height: 12%;
+    position: fixed;
+    z-index: 999;
+    bottom:0;
+    left: 45%;
+    text-align: center;
+}
+.pre-left,.pre-right{
+    width: 12%;
+    height: 25%;
+    position: absolute;
+    background: #efe;
+    border-radius: 25%;
+}
+.pre-left{
+    left: 25%;
+    transform: rotate(45deg);
+}
+.pre-right{
+    left: 60%;
+    transform: rotate(-45deg);
+}
+.en-text{
+    color: #fff;
+    font-size: 14px;
+    line-height: 25px;
+    margin:0;
+}
+/*page2*/
+.bg2-box{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.bg2{
+    width: 100%;
+    height: 105%;
+}
+.blue-bg {
+    width: 82%;
+    height: 67%;
+    top:11%;
+    left: 9%;
+}
+.photo2-box{
+    width: 70%;
+    top: 8%;
+    left: 15%;
+    height:40%;
+    overflow: hidden;
+}
+.photo2 {
+    width: 100%;
+    top: -24%;
+}
+.wedding-bg{
+    width: 44%;
+    left: 28%;
+    bottom: 25%;
+}
+.and{
+    width:16%;
+    top: 56%;
+    left: 42%;
+}
+.name1,.name2{
+    font-size: 16px;
+    color: #676767;
+    width:20%;
+}
+.name1{
+    top: 58%;
+    left: 42%;
+}
+.name2{
+    top:62%;
+    left: 46%;
+}
+.bottom-img{
+    width:58%;
+    bottom: 8%;
+    left:19%;
+}
+.invitation-text{
+    width: 70%;
+    bottom: 2%;
+    left: 15%;
+}
+/*page3*/
+.tl {
+    width: 108%;
+    top: 5%;
+}
+
+.white-bg {
+    width: 88%;
+    left: 6%;
+    top: 10%;;
+}
+
+.marry-text {
+    width: 50%;
+    top: 12%;
+    left: 25%;
+}
+
+.line {
+    width: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #676767;
+}
+
+.line1 {
+    top: 230px;
+}
+
+.line2 {
+    top: 250px;
+}
+
+.line3 {
+    top: 295px;
+}
+
+.line4 {
+    font-size: 16px;
+    top: 315px;
+}
+
+.line5 {
+    top: 365px;
+}
+
+.line6 {
+    top: 385px;
+}
+
+.bottom-icon {
+    width: 20%;
+    left:40%;
+    bottom: 18%;
+}
+/*page4*/
+.page4{
+    background: #f6f9fa;
+}
+.img-photo3{
+    width: 84%;
+    height:68%;
+    top: 10%;
+    left: 8%;
+    overflow: hidden;
+}
+.photo3{
+    width:200%;
+    height: 100%;
+    left: -50%;
+}
+.img-text4{
+    top: 82%;
+    width: 46%;
+    left: 27%;
+}
+/*page5*/
+.page5{
+    background: #f6f9fa;
+}
+.img-photo4-box{
+    width: 100%;
+    height: 94%;
+    top:6%;
+    overflow: hidden;
+}
+.photo4{
+    /*width: 200%;*/
+    left: -80%;
+    height: 100%;
+}
+.page5-text1,.page5-text2{
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    left: 10%;
+}
+.page5-text1 span{
+    color: #9ad9f1;
+}
+.page5-text1 {
+    bottom:12%;
+}
+.page5-text2{
+    bottom: 7%;
+}
+/*page6*/
+.page6{
+    background: #f6f9fa;
+}
+.photo5{
+    width:88%;
+    height: 78%;
+    top:8%;
+    left: 6%;
+}
+.text5{
+    width: 40%;
+    left:30%;
+    bottom:6%;
+}
+/*page7*/
+.page3,.page7,.page9{
+    background: url(../img/bg.jpg);
+}
+.photo6{
+    width: 94%;
+    height: 78%;
+    top:10%;
+    left:3%;
+}
+.page7 .text5{
+    width: 36%;
+    left: 32%;
+    bottom:6%;
+}
+.lb{
+    width: 50%;
+    left: 0;
+    bottom: 2px;
+}
+.tr{
+    width: 102%;
+    right: 0;
+    top: 6%;
+}
+.right-white{
+    right: 3%;
+    top: 10%;
+    width: 14%;
+    height: 78%;
+}
+.v-text1{
+    right:11%;
+    width: 5%;
+    white-space: nowrap;
+    transform: rotate(90deg);
+    top: 13%;
+    font-size: 12px;
+    color: #888;
+}
+.v-text2{
+    right:5%;
+    width: 5%;
+    top: 17%;
+    font-size: 16px;
+    color: #676767;
+}
+/*page8*/
+.page8{
+    background: #f6f9fa;
+}
+.photo7{
+    width: 100%;
+    height: 38%;
+    top: 9%;
+}
+
+.img-photo8-box{
+    width: 100%;
+    height: 38%;
+    top: 50%;
+    overflow: hidden;
+}
+.photo8{
+    width: 106%;
+    left: -3%;
+    top: -66%;
+}
+.white-point{
+    width: 50%;
+    left: 18%;
+    top: 55%;
+}
+.img-text5{
+    width: 40%;
+    left: 30%;
+    bottom: 5%;
+}
+/*page9*/
+.page9-top{
+    width: 110%;
+    left: -5%;
+    top: 2%;
+}
+.page9-bottom{
+    width: 100%;
+    bottom: 0;
+}
+.photo-frame{
+    width: 90%;
+    left:5%;
+    top: 13%;
+}
+.img-photo9-box{
+    width: 85%;
+    height: 100%;
+    left:6%;
+    top: 17%;
+    overflow: hidden;
+}
+.photo9{
+    width: 100%;
+}
+.page9-text1{
+    width: 50%;
+    top: 50%;
+    left:25%;
+}
+.page9-text2{
+    width: 50%;
+    top:55%;
+    left:25%;
+}
+.page9-text3{
+    width: 20%;
+    top:86%;
+    left:40%;
+}
+.page9-text{
+    width: 100%;
+    text-align: center;
+    top: 64%;
+}
+.page9-text-box{
+    margin-bottom:6px;
+}
+.page9-text-box .text{
+    line-height: 16px;
+    font-size: 14px;
+    color: #676767;
+    margin: 0;
+}
+/*page10*/
+.page2,.page10,.page11,.page12,.page13{
+    background: #f6f9fa;
+}
+.photo10{
+    width: 110%;
+    left: -8%;
+    top: 3%;
+}
+.page10-point1{
+    width: 40%;
+    top: 13%;
+    right: -5%;
+}
+.page10-point2{
+    width: 40%;
+    top: 70%;
+    left: 2%;
+}
+/*page11*/
+
+.page11-img1,.page12-img1{
+    width: 112%;
+    left: -3%;
+    top: 5%;
+}
+.page11-img2,.page12-img2{
+    width: 110%;
+    right: -2%;
+    top: 36%;
+}
+.page11-img-text,.page12-img-text{
+    top: 13%;
+    width: 50%;
+    left: 25%;
+}
+.page11-time,.page12-time{
+    width:100%;
+    top: 16%;
+    color: #888;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
+.page11-text,.page12-text{
+    width: 100%;
+    color: #666;
+    margin: 0;
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+}
+.welcome-text1{
+    top:30%;
+}
+.welcome-text2{
+    top: 34%;
+}
+.address{
+    width: 100%;
+    height: 40%;
+    top: 38%;
+}
+.time-text{
+    top: 5%;
+}
+.hotel-text{
+    top: 16%;
+}
+.addr-text{
+    top: 27%;
+}
+.page11-line{
+    top:56%;
+    width: 80%;
+    left: 10%;
+}
+.map{
+    width: 78%;
+    left: 11%;
+    top: 60%;
+    height: 25%;
+    background: #fefe33;
+}
+/*page12*/
+.page12-photo-box{
+    width: 78%;
+    left: 11%;
+    top: 35%;
+    height: 25%;
+    overflow: hidden;
+}
+.photo12{
+    width: 90%;
+    left: 5%;
+    top: -70%;
+}
+.page12-line{
+    top:60%;
+    width: 80%;
+    left: 10%;
+}
+.page12-welcome-text2{
+    color: #fecccc;
+    top: 63%;
+}
+.contact{
+    top: 75%;
+    width: 70%;
+    height: 10%;
+    left: 15%;
+    color: #fff;
+    text-align:center;
+}
+.contact-btn{
+    width: 45%;
+    height:35px;
+    font-size: 16px;
+    line-height: 35px;
+}
+.contact-bride{
+    background: #f09ee3;
+    right: 0;
+}
+.contact-groom{
+    background: #79b5bd;
+    left: 0;
+}
+.page12-text1{
+    width: 20%;
+    left: 40%;
+    bottom: 2%;
+
+}
+/*page13*/
+.page13-bg2{
+    top: 3%;
+    width: 100%;
+    height: 103%;
+}
+.page13-bottom-img{
+    width:58%;
+    left:21%;
+    bottom: 5%;
+}
+.page13-blue-bg{
+    width: 80%;
+    left: 10%;
+    height: 60%;
+    top: 15%;
+}
+.img-photo13-box{
+    width: 68%;
+    height: 54%;
+    left: 16%;
+    top: 11%;
+    border: 2px solid #fff;
+    overflow: hidden;
+}
+.photo13{
+    width: 100%;
+}
+.page13-text{
+    top:65%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+}
